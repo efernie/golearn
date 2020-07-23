@@ -1,4 +1,4 @@
-module golearn
+module github.com/efernie/golearn
 
 go 1.12
 
