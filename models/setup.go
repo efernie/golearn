@@ -7,7 +7,7 @@ import (
 
 var DB *gorm.DB
 
-func connectDatabase() {
+func ConnectDatabase() {
 	database, err := gorm.Open("mysql", "root@/golearn?charset=utf8&parseTime=True&loc=Local")
 
 	if err != nil {
